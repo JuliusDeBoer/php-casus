@@ -1,0 +1,27 @@
+body {
+	padding: 10px 20px;
+}
+
+.card-group {
+	padding: 20px 0;
+}
+
+.card-img-top {
+	height: 200px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.clickable {
+	text-decoration: underline;
+}
+
+.clickable:hover {
+	cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {	
+	body {
+		padding: 20px 20vw;
+	}
+}
